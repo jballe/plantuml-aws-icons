@@ -1,0 +1,21 @@
+{
+  "name": "plantuml-aws-icons",
+  "version": "1.0.0",
+  "description": "Amazon Web Services iconset for plantuml",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bld/build.js",
+    "samples": "node bld/make-samples.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jballe/plantuml-aws-icons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "asciify-image": "^0.1.3",
+    "imagemagick": "^0.1.3",
+    "recursive-readdir": "^2.2.2"
+  }
+}
