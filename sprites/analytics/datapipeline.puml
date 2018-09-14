@@ -52,7 +52,7 @@ sprite $datapipeline [48x40/16] {
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_DATAPIPELINE_G <img:AWS_SPRITESPATH/analytics/datapipeline_gray.png>

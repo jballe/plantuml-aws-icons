@@ -52,7 +52,7 @@ sprite $cloudformationchangeset [48x42/16] {
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_CLOUDFORMATIONCHANGESET_G <img:AWS_SPRITESPATH/management_tools/cloudformation_changeset_gray.png>

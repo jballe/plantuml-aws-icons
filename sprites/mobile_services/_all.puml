@@ -1,0 +1,13 @@
+@startuml
+!ifdef AWS_SPRITESPATH
+!else
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
+!endif
+
+!includeurl MS_SPRITESPATH/mobile_services/apigateway.puml
+!includeurl MS_SPRITESPATH/mobile_services/cognito.puml
+!includeurl MS_SPRITESPATH/mobile_services/devicefarm.puml
+!includeurl MS_SPRITESPATH/mobile_services/mobileanalytics.puml
+!includeurl MS_SPRITESPATH/mobile_services/mobilehub.puml
+!includeurl MS_SPRITESPATH/mobile_services/pinpoint.puml
+@enduml

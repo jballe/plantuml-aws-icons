@@ -1,0 +1,27 @@
+@startuml
+!ifdef AWS_SPRITESPATH
+!else
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
+!endif
+
+!includeurl MS_SPRITESPATH/general/client.puml
+!includeurl MS_SPRITESPATH/general/cloud.puml
+!includeurl MS_SPRITESPATH/general/corporatedatacenter.puml
+!includeurl MS_SPRITESPATH/general/disk.puml
+!includeurl MS_SPRITESPATH/general/forums.puml
+!includeurl MS_SPRITESPATH/general/genericdatabase.puml
+!includeurl MS_SPRITESPATH/general/internet.puml
+!includeurl MS_SPRITESPATH/general/internetalternate1.puml
+!includeurl MS_SPRITESPATH/general/internetalternate2.puml
+!includeurl MS_SPRITESPATH/general/managementconsole.puml
+!includeurl MS_SPRITESPATH/general/mobileclient.puml
+!includeurl MS_SPRITESPATH/general/multimedia.puml
+!includeurl MS_SPRITESPATH/general/officebuilding.puml
+!includeurl MS_SPRITESPATH/general/samltoken.puml
+!includeurl MS_SPRITESPATH/general/sslpadlock.puml
+!includeurl MS_SPRITESPATH/general/tapestorage.puml
+!includeurl MS_SPRITESPATH/general/traditionalserver.puml
+!includeurl MS_SPRITESPATH/general/user.puml
+!includeurl MS_SPRITESPATH/general/users.puml
+!includeurl MS_SPRITESPATH/general/virtualprivatecloud.puml
+@enduml

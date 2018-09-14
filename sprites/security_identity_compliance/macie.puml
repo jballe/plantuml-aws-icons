@@ -29,7 +29,7 @@ EE30000000000005E8000089980000000000000000000599
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_MACIE_G <img:AWS_SPRITESPATH/security_identity_compliance/macie_gray.png>

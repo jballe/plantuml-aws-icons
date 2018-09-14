@@ -52,7 +52,7 @@ sprite $inspectoragent [48x46/16] {
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_INSPECTORAGENT_G <img:AWS_SPRITESPATH/security_identity_compliance/inspector_agent_gray.png>

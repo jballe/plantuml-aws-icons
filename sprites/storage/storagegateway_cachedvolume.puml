@@ -52,7 +52,7 @@ sprite $storagegatewaycachedvolume [48x39/16] {
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_STORAGEGATEWAYCACHEDVOLUME_G <img:AWS_SPRITESPATH/storage/storagegateway_cachedvolume_gray.png>

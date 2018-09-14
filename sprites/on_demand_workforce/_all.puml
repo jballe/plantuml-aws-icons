@@ -1,0 +1,12 @@
+@startuml
+!ifdef AWS_SPRITESPATH
+!else
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
+!endif
+
+!includeurl MS_SPRITESPATH/on_demand_workforce/mechanicalturk.puml
+!includeurl MS_SPRITESPATH/on_demand_workforce/mechanicalturk_assignmenttask.puml
+!includeurl MS_SPRITESPATH/on_demand_workforce/mechanicalturk_humanintelligencetasks.puml
+!includeurl MS_SPRITESPATH/on_demand_workforce/mechanicalturk_requester.puml
+!includeurl MS_SPRITESPATH/on_demand_workforce/mechanicalturk_workers.puml
+@enduml

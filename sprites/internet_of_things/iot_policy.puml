@@ -52,7 +52,7 @@ sprite $iotpolicy [48x30/16] {
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_IOTPOLICY_G <img:AWS_SPRITESPATH/internet_of_things/iot_policy_gray.png>

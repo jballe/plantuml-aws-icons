@@ -52,7 +52,7 @@ sprite $ec2x1instance [48x45/16] {
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_EC2X1INSTANCE_G <img:AWS_SPRITESPATH/compute/ec2_x1instance_gray.png>

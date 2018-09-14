@@ -52,7 +52,7 @@ EEEEEEEEEEEEEEEEEEE955555555555555555555
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_SERVICECATALOG_G <img:AWS_SPRITESPATH/management_tools/servicecatalog_gray.png>

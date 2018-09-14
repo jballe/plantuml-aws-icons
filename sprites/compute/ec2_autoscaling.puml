@@ -51,7 +51,7 @@ sprite $ec2autoscaling [47x48/16] {
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_EC2AUTOSCALING_G <img:AWS_SPRITESPATH/compute/ec2_autoscaling_gray.png>

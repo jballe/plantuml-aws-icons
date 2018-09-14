@@ -52,7 +52,7 @@ sprite $storagegatewayvirtualtapelibrary [48x39/16] {
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_STORAGEGATEWAYVIRTUALTAPELIBRARY_G <img:AWS_SPRITESPATH/storage/storagegateway_virtualtapelibrary_gray.png>

@@ -50,7 +50,7 @@ EE98888888888888888EE000000EE88888888888888889EE
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_OPSWORKSDEPLOYMENTS_G <img:AWS_SPRITESPATH/management_tools/opsworks_deployments_gray.png>

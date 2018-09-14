@@ -23,7 +23,7 @@ sprite $iotfiretvstick [19x48/16] {
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_IOTFIRETVSTICK_G <img:AWS_SPRITESPATH/internet_of_things/iot_firetvstick_gray.png>

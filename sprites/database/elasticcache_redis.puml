@@ -52,7 +52,7 @@ sprite $elasticcacheredis [48x46/16] {
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_ELASTICCACHEREDIS_G <img:AWS_SPRITESPATH/database/elasticcache_redis_gray.png>

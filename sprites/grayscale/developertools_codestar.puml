@@ -52,7 +52,7 @@ EEE859EEEEE85EEEEEE9555555EE555558E9555
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_DEVELOPERTOOLSCODESTAR_G <img:AWS_SPRITESPATH/grayscale/developertools_codestar_gray.png>

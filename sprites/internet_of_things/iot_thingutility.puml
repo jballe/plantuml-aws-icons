@@ -52,7 +52,7 @@ sprite $iotthingutility [48x48/16] {
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_IOTTHINGUTILITY_G <img:AWS_SPRITESPATH/internet_of_things/iot_thingutility_gray.png>

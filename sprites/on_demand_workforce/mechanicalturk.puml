@@ -52,7 +52,7 @@ EEEE3888EEEEEEEEEEE93888888888885EE98888
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_MECHANICALTURK_G <img:AWS_SPRITESPATH/on_demand_workforce/mechanicalturk_gray.png>

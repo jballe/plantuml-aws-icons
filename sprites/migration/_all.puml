@@ -1,0 +1,14 @@
+@startuml
+!ifdef AWS_SPRITESPATH
+!else
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
+!endif
+
+!includeurl MS_SPRITESPATH/migration/applicationdiscoveryservice.puml
+!includeurl MS_SPRITESPATH/migration/dms.puml
+!includeurl MS_SPRITESPATH/migration/dms_databasemigrationworkflow_job.puml
+!includeurl MS_SPRITESPATH/migration/migrationhub.puml
+!includeurl MS_SPRITESPATH/migration/sms.puml
+!includeurl MS_SPRITESPATH/migration/snowball.puml
+!includeurl MS_SPRITESPATH/migration/snowball_importexport.puml
+@enduml

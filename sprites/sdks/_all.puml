@@ -1,0 +1,21 @@
+@startuml
+!ifdef AWS_SPRITESPATH
+!else
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
+!endif
+
+!includeurl MS_SPRITESPATH/sdks/android.puml
+!includeurl MS_SPRITESPATH/sdks/cli.puml
+!includeurl MS_SPRITESPATH/sdks/ios.puml
+!includeurl MS_SPRITESPATH/sdks/java.puml
+!includeurl MS_SPRITESPATH/sdks/javascript.puml
+!includeurl MS_SPRITESPATH/sdks/net.puml
+!includeurl MS_SPRITESPATH/sdks/nodejs.puml
+!includeurl MS_SPRITESPATH/sdks/php.puml
+!includeurl MS_SPRITESPATH/sdks/python.puml
+!includeurl MS_SPRITESPATH/sdks/ruby.puml
+!includeurl MS_SPRITESPATH/sdks/toolkitforeclipse.puml
+!includeurl MS_SPRITESPATH/sdks/toolkitforvisualstudio.puml
+!includeurl MS_SPRITESPATH/sdks/toolsforwindowspowershell.puml
+!includeurl MS_SPRITESPATH/sdks/xamarin.puml
+@enduml

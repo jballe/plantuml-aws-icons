@@ -52,7 +52,7 @@ sprite $kinesisamazonkinesisanalytics [48x47/16] {
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_KINESISAMAZONKINESISANALYTICS_G <img:AWS_SPRITESPATH/analytics/kinesis_amazonkinesisanalytics_gray.png>

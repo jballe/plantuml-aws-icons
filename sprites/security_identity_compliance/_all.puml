@@ -1,0 +1,33 @@
+@startuml
+!ifdef AWS_SPRITESPATH
+!else
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
+!endif
+
+!includeurl MS_SPRITESPATH/security_identity_compliance/acm_certificatemanager.puml
+!includeurl MS_SPRITESPATH/security_identity_compliance/artifact.puml
+!includeurl MS_SPRITESPATH/security_identity_compliance/certificatemanager.puml
+!includeurl MS_SPRITESPATH/security_identity_compliance/certificatemanager_certificatemanager.puml
+!includeurl MS_SPRITESPATH/security_identity_compliance/clouddirectory.puml
+!includeurl MS_SPRITESPATH/security_identity_compliance/cloudhsm.puml
+!includeurl MS_SPRITESPATH/security_identity_compliance/directoryservice.puml
+!includeurl MS_SPRITESPATH/security_identity_compliance/iam.puml
+!includeurl MS_SPRITESPATH/security_identity_compliance/iam_addon.puml
+!includeurl MS_SPRITESPATH/security_identity_compliance/iam_awssts.puml
+!includeurl MS_SPRITESPATH/security_identity_compliance/iam_awssts_2.puml
+!includeurl MS_SPRITESPATH/security_identity_compliance/iam_dataencryptionkey.puml
+!includeurl MS_SPRITESPATH/security_identity_compliance/iam_encrypteddata.puml
+!includeurl MS_SPRITESPATH/security_identity_compliance/iam_long_termsecuritycredential.puml
+!includeurl MS_SPRITESPATH/security_identity_compliance/iam_mfatoken.puml
+!includeurl MS_SPRITESPATH/security_identity_compliance/iam_permissions.puml
+!includeurl MS_SPRITESPATH/security_identity_compliance/iam_role.puml
+!includeurl MS_SPRITESPATH/security_identity_compliance/iam_temporarysecuritycredential.puml
+!includeurl MS_SPRITESPATH/security_identity_compliance/inspector.puml
+!includeurl MS_SPRITESPATH/security_identity_compliance/inspector_agent.puml
+!includeurl MS_SPRITESPATH/security_identity_compliance/kms.puml
+!includeurl MS_SPRITESPATH/security_identity_compliance/macie.puml
+!includeurl MS_SPRITESPATH/security_identity_compliance/organizations.puml
+!includeurl MS_SPRITESPATH/security_identity_compliance/shield.puml
+!includeurl MS_SPRITESPATH/security_identity_compliance/waf.puml
+!includeurl MS_SPRITESPATH/security_identity_compliance/waf_filteringrule.puml
+@enduml

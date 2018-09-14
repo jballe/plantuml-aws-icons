@@ -52,7 +52,7 @@ EEEEEE5335EEEEEEEEEEE533333335EEEEEEE93333
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_MANAGEMENTTOOLSEC2SYSTEMSMANAGER_G <img:AWS_SPRITESPATH/grayscale/managementtools_ec2systemsmanager_gray.png>

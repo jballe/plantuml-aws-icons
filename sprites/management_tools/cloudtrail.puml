@@ -52,7 +52,7 @@ E858EEE98889EEEEEEEE88888888888888888888
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_CLOUDTRAIL_G <img:AWS_SPRITESPATH/management_tools/cloudtrail_gray.png>

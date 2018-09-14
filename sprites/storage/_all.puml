@@ -1,0 +1,25 @@
+@startuml
+!ifdef AWS_SPRITESPATH
+!else
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
+!endif
+
+!includeurl MS_SPRITESPATH/storage/ebs.puml
+!includeurl MS_SPRITESPATH/storage/efs.puml
+!includeurl MS_SPRITESPATH/storage/efs_efsfilesystem.puml
+!includeurl MS_SPRITESPATH/storage/glacier.puml
+!includeurl MS_SPRITESPATH/storage/glacier_archive.puml
+!includeurl MS_SPRITESPATH/storage/glacier_vault.puml
+!includeurl MS_SPRITESPATH/storage/s3.puml
+!includeurl MS_SPRITESPATH/storage/s3_bucket.puml
+!includeurl MS_SPRITESPATH/storage/s3_bucketwithobjects.puml
+!includeurl MS_SPRITESPATH/storage/s3_object.puml
+!includeurl MS_SPRITESPATH/storage/snapshot.puml
+!includeurl MS_SPRITESPATH/storage/snowball.puml
+!includeurl MS_SPRITESPATH/storage/snowball_importexport.puml
+!includeurl MS_SPRITESPATH/storage/storagegateway.puml
+!includeurl MS_SPRITESPATH/storage/storagegateway_cachedvolume.puml
+!includeurl MS_SPRITESPATH/storage/storagegateway_non_cachedvolume.puml
+!includeurl MS_SPRITESPATH/storage/storagegateway_virtualtapelibrary.puml
+!includeurl MS_SPRITESPATH/storage/volume.puml
+@enduml

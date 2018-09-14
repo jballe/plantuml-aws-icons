@@ -52,7 +52,7 @@ EEEEEEEEE955805EEEEE55555005EE9555555555
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_IOTAWSGREENGRASS_G <img:AWS_SPRITESPATH/internet_of_things/iot_awsgreengrass_gray.png>

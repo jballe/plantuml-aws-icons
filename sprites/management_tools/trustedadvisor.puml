@@ -52,7 +52,7 @@ EEE95559EEEEEEEEEEE95555555555558EE95555
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_TRUSTEDADVISOR_G <img:AWS_SPRITESPATH/management_tools/trustedadvisor_gray.png>

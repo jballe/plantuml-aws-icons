@@ -1,0 +1,13 @@
+@startuml
+!ifdef AWS_SPRITESPATH
+!else
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
+!endif
+
+!includeurl MS_SPRITESPATH/developer_tools/codebuild.puml
+!includeurl MS_SPRITESPATH/developer_tools/codecommit.puml
+!includeurl MS_SPRITESPATH/developer_tools/codedeploy.puml
+!includeurl MS_SPRITESPATH/developer_tools/codepipeline.puml
+!includeurl MS_SPRITESPATH/developer_tools/codestar.puml
+!includeurl MS_SPRITESPATH/developer_tools/x_ray.puml
+@enduml

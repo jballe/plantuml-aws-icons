@@ -1,0 +1,9 @@
+@startuml
+!ifdef AWS_SPRITESPATH
+!else
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
+!endif
+
+!includeurl MS_SPRITESPATH/desktop_app_streaming/appstream20.puml
+!includeurl MS_SPRITESPATH/desktop_app_streaming/workspaces.puml
+@enduml

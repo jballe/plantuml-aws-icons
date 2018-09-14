@@ -41,7 +41,7 @@ EEE858888800000000000000000000000000008EEEEEE888
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_CONNECT_G <img:AWS_SPRITESPATH/contact_center/connect_gray.png>

@@ -52,7 +52,7 @@ EEEEEEEEEEEEEEEEE9953800000833359EE833335995333
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_MOBILESERVICESMOBILEANALYTICS_G <img:AWS_SPRITESPATH/grayscale/mobileservices_mobileanalytics_gray.png>

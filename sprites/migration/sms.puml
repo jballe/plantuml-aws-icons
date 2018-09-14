@@ -52,7 +52,7 @@ E958EE558EE95559EEEE55555555555555555555
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_SMS_G <img:AWS_SPRITESPATH/migration/sms_gray.png>

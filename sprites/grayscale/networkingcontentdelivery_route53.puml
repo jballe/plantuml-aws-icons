@@ -52,7 +52,7 @@ EEE85555555555555EEE55555555000000000000
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_NETWORKINGCONTENTDELIVERYROUTE53_G <img:AWS_SPRITESPATH/grayscale/networkingcontentdelivery_route53_gray.png>

@@ -1,0 +1,13 @@
+@startuml
+!ifdef AWS_SPRITESPATH
+!else
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
+!endif
+
+!includeurl MS_SPRITESPATH/application_services/apigateway.puml
+!includeurl MS_SPRITESPATH/application_services/elastictranscoder.puml
+!includeurl MS_SPRITESPATH/application_services/stepfunctions.puml
+!includeurl MS_SPRITESPATH/application_services/swf.puml
+!includeurl MS_SPRITESPATH/application_services/swf_decider.puml
+!includeurl MS_SPRITESPATH/application_services/swf_worker.puml
+@enduml

@@ -52,7 +52,7 @@ E85555555555555555555555000855550055553005580
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_KINESISAMAZONKINESISENABLEDAPP_G <img:AWS_SPRITESPATH/analytics/kinesis_amazonkinesis_enabledapp_gray.png>

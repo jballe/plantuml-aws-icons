@@ -52,7 +52,7 @@ EEEEEEEEE500588888888888000EEEEEEEEEEEEEE
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_BUSINESSPRODUCTIVITYWORKDOCS_G <img:AWS_SPRITESPATH/grayscale/businessproductivity_workdocs_gray.png>

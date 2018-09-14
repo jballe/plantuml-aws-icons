@@ -52,7 +52,7 @@ E9559E8558E98555999955555555555555555555
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_EMR_G <img:AWS_SPRITESPATH/analytics/emr_gray.png>

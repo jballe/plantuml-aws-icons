@@ -1,0 +1,29 @@
+@startuml
+!ifdef AWS_SPRITESPATH
+!else
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
+!endif
+
+!includeurl MS_SPRITESPATH/analytics/athena.puml
+!includeurl MS_SPRITESPATH/analytics/cloudsearch.puml
+!includeurl MS_SPRITESPATH/analytics/cloudsearch_searchdocuments.puml
+!includeurl MS_SPRITESPATH/analytics/datapipeline.puml
+!includeurl MS_SPRITESPATH/analytics/emr.puml
+!includeurl MS_SPRITESPATH/analytics/emr_cluster.puml
+!includeurl MS_SPRITESPATH/analytics/emr_emrengine.puml
+!includeurl MS_SPRITESPATH/analytics/emr_emrenginemaprm3.puml
+!includeurl MS_SPRITESPATH/analytics/emr_emrenginemaprm5.puml
+!includeurl MS_SPRITESPATH/analytics/emr_emrenginemaprm7.puml
+!includeurl MS_SPRITESPATH/analytics/emr_hdfscluster.puml
+!includeurl MS_SPRITESPATH/analytics/es.puml
+!includeurl MS_SPRITESPATH/analytics/glue.puml
+!includeurl MS_SPRITESPATH/analytics/kinesis.puml
+!includeurl MS_SPRITESPATH/analytics/kinesis_amazonkinesisanalytics.puml
+!includeurl MS_SPRITESPATH/analytics/kinesis_amazonkinesisfirehose.puml
+!includeurl MS_SPRITESPATH/analytics/kinesis_amazonkinesisstreams.puml
+!includeurl MS_SPRITESPATH/analytics/kinesis_amazonkinesis_enabledapp.puml
+!includeurl MS_SPRITESPATH/analytics/quicksight.puml
+!includeurl MS_SPRITESPATH/analytics/redshift.puml
+!includeurl MS_SPRITESPATH/analytics/redshift_densecomputenode.puml
+!includeurl MS_SPRITESPATH/analytics/redshift_densestoragenode.puml
+@enduml

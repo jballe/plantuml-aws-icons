@@ -52,7 +52,7 @@ sprite $dmsdatabasemigrationworkflowjob [48x26/16] {
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_DMSDATABASEMIGRATIONWORKFLOWJOB_G <img:AWS_SPRITESPATH/database/dms_databasemigrationworkflowjob_gray.png>

@@ -65,7 +65,7 @@ function asciifyToPlantuml(spriteArray, size) {
     return sprite;
 }
 
-const defineUrl = `!ifdef ${prefix}_SPRITESPATH\n!else\n!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites\n!endif\n\n`;
+const defineUrl = `!ifdef ${prefix}_SPRITESPATH\n!else\n!define ${prefix}_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites\n!endif\n\n`;
 
 function cleanFileSegment(str) {
     let fileName = str.replace(' & ', '-').toLowerCase().replace(/[^a-z0-9\s\-\_]/ig, '');

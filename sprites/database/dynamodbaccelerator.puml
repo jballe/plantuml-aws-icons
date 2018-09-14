@@ -52,7 +52,7 @@ EEEEEEEEEEEEEEEEE5008EEEEEEEEEEEE985899999
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_DYNAMODBACCELERATOR_G <img:AWS_SPRITESPATH/database/dynamodbaccelerator_gray.png>

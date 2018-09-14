@@ -1,0 +1,17 @@
+@startuml
+!ifdef AWS_SPRITESPATH
+!else
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
+!endif
+
+!includeurl MS_SPRITESPATH/messaging/pinpoint.puml
+!includeurl MS_SPRITESPATH/messaging/ses.puml
+!includeurl MS_SPRITESPATH/messaging/ses_email.puml
+!includeurl MS_SPRITESPATH/messaging/sns.puml
+!includeurl MS_SPRITESPATH/messaging/sns_emailnotification.puml
+!includeurl MS_SPRITESPATH/messaging/sns_httpnotification.puml
+!includeurl MS_SPRITESPATH/messaging/sns_topic.puml
+!includeurl MS_SPRITESPATH/messaging/sqs.puml
+!includeurl MS_SPRITESPATH/messaging/sqs_message.puml
+!includeurl MS_SPRITESPATH/messaging/sqs_queue.puml
+@enduml

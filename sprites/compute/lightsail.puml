@@ -52,7 +52,7 @@ EEEEEE8555EEEEEEEEEEEE555555555558EEEE555555
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_LIGHTSAIL_G <img:AWS_SPRITESPATH/compute/lightsail_gray.png>

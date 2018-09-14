@@ -1,0 +1,50 @@
+@startuml
+!ifdef AWS_SPRITESPATH
+!else
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
+!endif
+
+!includeurl MS_SPRITESPATH/internet_of_things/iot.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_action.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_actuator.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_alexaskill.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_alexasmarthomeskill.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_alexavoiceservice.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_avsenableddevice.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_awsgreengrass.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_certificate.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_desiredstate.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_echo.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_firetv.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_firetvstick.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_hardwareboard.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_http2protocol.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_httpprotocol.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_lambdafunction.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_mqttprotocol.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_policy.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_reportedstate.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_rule.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_sensor.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_servo.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_shadow.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_simulator.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_thingbank.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_thingbicycle.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_thingcamera.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_thingcar.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_thingcart.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_thingcoffeepot.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_thingdoorlock.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_thingfactory.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_thinggeneric.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_thinghouse.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_thinglightbulb.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_thingmedicalemergency.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_thingpoliceemergency.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_thingthermostat.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_thingtravel.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_thingutility.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_thingwindfarm.puml
+!includeurl MS_SPRITESPATH/internet_of_things/iot_topic.puml
+@enduml

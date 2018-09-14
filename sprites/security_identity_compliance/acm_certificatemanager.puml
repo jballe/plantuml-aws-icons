@@ -52,7 +52,7 @@ sprite $acmcertificatemanager [48x48/16] {
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_ACMCERTIFICATEMANAGER_G <img:AWS_SPRITESPATH/security_identity_compliance/acm_certificatemanager_gray.png>

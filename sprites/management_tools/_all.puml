@@ -1,0 +1,53 @@
+@startuml
+!ifdef AWS_SPRITESPATH
+!else
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
+!endif
+
+!includeurl MS_SPRITESPATH/management_tools/cloudformation.puml
+!includeurl MS_SPRITESPATH/management_tools/cloudformation_changeset.puml
+!includeurl MS_SPRITESPATH/management_tools/cloudformation_stack.puml
+!includeurl MS_SPRITESPATH/management_tools/cloudformation_template.puml
+!includeurl MS_SPRITESPATH/management_tools/cloudtrail.puml
+!includeurl MS_SPRITESPATH/management_tools/cloudwatch.puml
+!includeurl MS_SPRITESPATH/management_tools/cloudwatch_alarm.puml
+!includeurl MS_SPRITESPATH/management_tools/cloudwatch_eventeventbased.puml
+!includeurl MS_SPRITESPATH/management_tools/cloudwatch_eventtimebased.puml
+!includeurl MS_SPRITESPATH/management_tools/cloudwatch_rule.puml
+!includeurl MS_SPRITESPATH/management_tools/config.puml
+!includeurl MS_SPRITESPATH/management_tools/ec2systemsmanager.puml
+!includeurl MS_SPRITESPATH/management_tools/ec2systemsmanager_automation.puml
+!includeurl MS_SPRITESPATH/management_tools/ec2systemsmanager_automation_large.puml
+!includeurl MS_SPRITESPATH/management_tools/ec2systemsmanager_documents.puml
+!includeurl MS_SPRITESPATH/management_tools/ec2systemsmanager_documents_large.puml
+!includeurl MS_SPRITESPATH/management_tools/ec2systemsmanager_inventory.puml
+!includeurl MS_SPRITESPATH/management_tools/ec2systemsmanager_inventory_large.puml
+!includeurl MS_SPRITESPATH/management_tools/ec2systemsmanager_large.puml
+!includeurl MS_SPRITESPATH/management_tools/ec2systemsmanager_maintenancewindow.puml
+!includeurl MS_SPRITESPATH/management_tools/ec2systemsmanager_maintenancewindow_large.puml
+!includeurl MS_SPRITESPATH/management_tools/ec2systemsmanager_parameterstore.puml
+!includeurl MS_SPRITESPATH/management_tools/ec2systemsmanager_parameterstore_large.puml
+!includeurl MS_SPRITESPATH/management_tools/ec2systemsmanager_patchmanager.puml
+!includeurl MS_SPRITESPATH/management_tools/ec2systemsmanager_patchmanager_large.puml
+!includeurl MS_SPRITESPATH/management_tools/ec2systemsmanager_runcommand.puml
+!includeurl MS_SPRITESPATH/management_tools/ec2systemsmanager_runcommand_large.puml
+!includeurl MS_SPRITESPATH/management_tools/ec2systemsmanager_statemanager.puml
+!includeurl MS_SPRITESPATH/management_tools/ec2systemsmanager_statemanager_large.puml
+!includeurl MS_SPRITESPATH/management_tools/managedservices.puml
+!includeurl MS_SPRITESPATH/management_tools/opsworks.puml
+!includeurl MS_SPRITESPATH/management_tools/opsworks_apps.puml
+!includeurl MS_SPRITESPATH/management_tools/opsworks_deployments.puml
+!includeurl MS_SPRITESPATH/management_tools/opsworks_instances.puml
+!includeurl MS_SPRITESPATH/management_tools/opsworks_layers.puml
+!includeurl MS_SPRITESPATH/management_tools/opsworks_monitoring.puml
+!includeurl MS_SPRITESPATH/management_tools/opsworks_permissions.puml
+!includeurl MS_SPRITESPATH/management_tools/opsworks_resources.puml
+!includeurl MS_SPRITESPATH/management_tools/opsworks_stack.puml
+!includeurl MS_SPRITESPATH/management_tools/servicecatalog.puml
+!includeurl MS_SPRITESPATH/management_tools/trustedadvisor.puml
+!includeurl MS_SPRITESPATH/management_tools/trustedadvisor_checklist.puml
+!includeurl MS_SPRITESPATH/management_tools/trustedadvisor_checklistcost.puml
+!includeurl MS_SPRITESPATH/management_tools/trustedadvisor_checklistfaulttolerance.puml
+!includeurl MS_SPRITESPATH/management_tools/trustedadvisor_checklistperformance.puml
+!includeurl MS_SPRITESPATH/management_tools/trustedadvisor_checklistsecurity.puml
+@enduml

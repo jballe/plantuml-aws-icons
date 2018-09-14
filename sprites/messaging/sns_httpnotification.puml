@@ -35,7 +35,7 @@ EEEEEEEEE900888888880000000080080000888888888888
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_SNSHTTPNOTIFICATION_G <img:AWS_SPRITESPATH/messaging/sns_httpnotification_gray.png>

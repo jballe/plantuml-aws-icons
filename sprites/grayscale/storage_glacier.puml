@@ -52,7 +52,7 @@ EEE8555555389EEEEEE955555558EEEEEEE9555
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_STORAGEGLACIER_G <img:AWS_SPRITESPATH/grayscale/storage_glacier_gray.png>

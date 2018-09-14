@@ -1,0 +1,38 @@
+@startuml
+!ifdef AWS_SPRITESPATH
+!else
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
+!endif
+
+!includeurl MS_SPRITESPATH/database/dms.puml
+!includeurl MS_SPRITESPATH/database/dms_databasemigrationworkflowjob.puml
+!includeurl MS_SPRITESPATH/database/dynamodb.puml
+!includeurl MS_SPRITESPATH/database/dynamodbaccelerator.puml
+!includeurl MS_SPRITESPATH/database/dynamodb_attribute.puml
+!includeurl MS_SPRITESPATH/database/dynamodb_attributes.puml
+!includeurl MS_SPRITESPATH/database/dynamodb_globalsecondaryindex.puml
+!includeurl MS_SPRITESPATH/database/dynamodb_item.puml
+!includeurl MS_SPRITESPATH/database/dynamodb_items.puml
+!includeurl MS_SPRITESPATH/database/dynamodb_table.puml
+!includeurl MS_SPRITESPATH/database/elasticcache.puml
+!includeurl MS_SPRITESPATH/database/elasticcache_cachenode.puml
+!includeurl MS_SPRITESPATH/database/elasticcache_memcached.puml
+!includeurl MS_SPRITESPATH/database/elasticcache_redis.puml
+!includeurl MS_SPRITESPATH/database/rds.puml
+!includeurl MS_SPRITESPATH/database/rds_dbinstance.puml
+!includeurl MS_SPRITESPATH/database/rds_instancereadreplica.puml
+!includeurl MS_SPRITESPATH/database/rds_instancestandby.puml
+!includeurl MS_SPRITESPATH/database/rds_mssqlinstance.puml
+!includeurl MS_SPRITESPATH/database/rds_mssqlinstancealternate.puml
+!includeurl MS_SPRITESPATH/database/rds_mysqldbinstance.puml
+!includeurl MS_SPRITESPATH/database/rds_mysqlinstancealternate.puml
+!includeurl MS_SPRITESPATH/database/rds_oracledbinstance.puml
+!includeurl MS_SPRITESPATH/database/rds_oracledbinstancealternate.puml
+!includeurl MS_SPRITESPATH/database/rds_piop.puml
+!includeurl MS_SPRITESPATH/database/rds_postgresqlinstance.puml
+!includeurl MS_SPRITESPATH/database/rds_sqlmaster.puml
+!includeurl MS_SPRITESPATH/database/rds_sqlslave.puml
+!includeurl MS_SPRITESPATH/database/redshift.puml
+!includeurl MS_SPRITESPATH/database/redshift_densecomputenode.puml
+!includeurl MS_SPRITESPATH/database/redshift_densestoragenode.puml
+@enduml

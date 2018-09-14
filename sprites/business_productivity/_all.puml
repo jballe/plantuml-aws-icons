@@ -1,0 +1,10 @@
+@startuml
+!ifdef AWS_SPRITESPATH
+!else
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
+!endif
+
+!includeurl MS_SPRITESPATH/business_productivity/chime.puml
+!includeurl MS_SPRITESPATH/business_productivity/workdocs.puml
+!includeurl MS_SPRITESPATH/business_productivity/workmail.puml
+@enduml

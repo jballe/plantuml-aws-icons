@@ -49,7 +49,7 @@ EEEEEEEEEEEEEEEEEEEEE555EE9555555555555555555555
 
 !ifdef AWS_SPRITESPATH
 !else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
 !endif
 
 !define AWSIMG_SHIELD_G <img:AWS_SPRITESPATH/security_identity_compliance/shield_gray.png>

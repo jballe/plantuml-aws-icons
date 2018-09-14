@@ -1,0 +1,49 @@
+@startuml
+!ifdef AWS_SPRITESPATH
+!else
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
+!endif
+
+!includeurl MS_SPRITESPATH/compute/batch.puml
+!includeurl MS_SPRITESPATH/compute/ec2.puml
+!includeurl MS_SPRITESPATH/compute/ec2_ami.puml
+!includeurl MS_SPRITESPATH/compute/ec2_autoscaling.puml
+!includeurl MS_SPRITESPATH/compute/ec2_dboninstance.puml
+!includeurl MS_SPRITESPATH/compute/ec2_ec2rescue.puml
+!includeurl MS_SPRITESPATH/compute/ec2_elasticipaddress.puml
+!includeurl MS_SPRITESPATH/compute/ec2_instance.puml
+!includeurl MS_SPRITESPATH/compute/ec2_instances.puml
+!includeurl MS_SPRITESPATH/compute/ec2_instancewithcloudwatch.puml
+!includeurl MS_SPRITESPATH/compute/ec2_optimizedinstance.puml
+!includeurl MS_SPRITESPATH/compute/ec2_spotfleet.puml
+!includeurl MS_SPRITESPATH/compute/ec2_spotinstance.puml
+!includeurl MS_SPRITESPATH/compute/ec2_x1instance.puml
+!includeurl MS_SPRITESPATH/compute/ecr.puml
+!includeurl MS_SPRITESPATH/compute/ecr_ecrregistry.puml
+!includeurl MS_SPRITESPATH/compute/ecs.puml
+!includeurl MS_SPRITESPATH/compute/ecs_ecscontainer.puml
+!includeurl MS_SPRITESPATH/compute/ecs_ecscontainer_alt1.puml
+!includeurl MS_SPRITESPATH/compute/ecs_ecscontainer_alt2.puml
+!includeurl MS_SPRITESPATH/compute/elasticbeanstalk.puml
+!includeurl MS_SPRITESPATH/compute/elasticbeanstalk_application.puml
+!includeurl MS_SPRITESPATH/compute/elasticbeanstalk_deployment.puml
+!includeurl MS_SPRITESPATH/compute/elasticloadbalancing.puml
+!includeurl MS_SPRITESPATH/compute/elasticloadbalancing_applicationloadbalancer.puml
+!includeurl MS_SPRITESPATH/compute/elasticloadbalancing_classicloadbalancer.puml
+!includeurl MS_SPRITESPATH/compute/lambda.puml
+!includeurl MS_SPRITESPATH/compute/lambda_lambdafunction.puml
+!includeurl MS_SPRITESPATH/compute/lightsail.puml
+!includeurl MS_SPRITESPATH/compute/vpc.puml
+!includeurl MS_SPRITESPATH/compute/vpc_customergateway.puml
+!includeurl MS_SPRITESPATH/compute/vpc_elasticnetworkadapter.puml
+!includeurl MS_SPRITESPATH/compute/vpc_elasticnetworkinterface.puml
+!includeurl MS_SPRITESPATH/compute/vpc_endpoints.puml
+!includeurl MS_SPRITESPATH/compute/vpc_flowlogs.puml
+!includeurl MS_SPRITESPATH/compute/vpc_internetgateway.puml
+!includeurl MS_SPRITESPATH/compute/vpc_networkaccesscontrollist.puml
+!includeurl MS_SPRITESPATH/compute/vpc_router.puml
+!includeurl MS_SPRITESPATH/compute/vpc_vpcnatgateway.puml
+!includeurl MS_SPRITESPATH/compute/vpc_vpcpeering.puml
+!includeurl MS_SPRITESPATH/compute/vpc_vpnconnection.puml
+!includeurl MS_SPRITESPATH/compute/vpc_vpngateway.puml
+@enduml
