@@ -1,0 +1,17 @@
+@startuml
+
+skinparam monochrome true
+skinparam backgroundColor white
+skinparam linetype polyline
+skinParam packageStyle rectangle
+
+skinparam component {
+  borderColor Transparent
+  backgroundColor Transparent
+  fontColor Black
+  stereotypeFontColor Transparent
+  shadowColor Transparent
+  shadowing false
+}
+
+@enduml

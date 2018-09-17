@@ -1,0 +1,33 @@
+@startuml
+
+!include "_styling.puml"
+
+left to right direction
+skinparam defaultTextAlignment center
+
+!define AWS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-aws-icons/master/sprites
+!includeurl AWS_SPRITESPATH/compute/ec2.puml
+!includeurl AWS_SPRITESPATH/storage/s3.puml
+!includeurl AWS_SPRITESPATH/storage/s3_bucket.puml
+!includeurl AWS_SPRITESPATH/networking_content_delivery/cloudfront.puml
+
+title Amazon Web Services
+
+cloud "AWS" {
+    component "S3 \nAWSIMG_S3_C" as s3
+
+    component "s3 b/w \nAWSIMG_S3BUCKET_B" as bucket_b
+    component "s3 gray \nAWSIMG_S3BUCKET_G" as bucket_g
+    component "S3 color \nAWSIMG_S3BUCKET_C" as bucket_c
+    component "s3 sprite \n<$s3bucket>" as bucket
+
+    component "AWSIMG_CLOUDFRONT_C \n CloudFront" as cloudfront
+
+    cloudfront --> s3
+    s3 --> bucket_c
+    s3 --> bucket_g
+    s3 --> bucket_b
+    s3 --> bucket
+}
+
+@enduml
