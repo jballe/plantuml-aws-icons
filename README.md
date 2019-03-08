@@ -1,5 +1,7 @@
 # AWS icon set for plantuml
 
+> Maybe you want to use [AWS-PlantUML](https://github.com/milo-minderbinder/AWS-PlantUML) instead.
+
 Inspired by [plantuml-icon-font-sprites](https://github.com/tupadr3/plantuml-icon-font-sprites) I downloaded 
 [AWS Simple Icons](https://aws.amazon.com/architecture/icons/), extracted, and made ``.puml`` files.
 
